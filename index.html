@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tips</title>
+</head>
+
+<body>
+    <main>
+        <h1>Quick Tips</h1>
+        <section>
+            <div>
+                <label for="bills">Bill</label>
+                <input type="number" placeholder="your bill" id="youBill" />
+            </div>
+            <div>
+                <div>
+                    <label for="selectTip">Select tip </label>
+                    <span id="tipPercentage">0%</span>
+                </div>
+                <input type="range" value="0" id="tipInput" />
+            </div>
+            <div>
+                <span>Tip</span>
+                <span id="tipValue"></span>
+
+            </div>
+            <hr>
+            <div>
+                <span>Total </span>
+                <span id="totalTip" </span>
+            </div>
+        </section>
+
+        <section>
+            <div>
+                <div>
+                    <label for="splitInput">Split </label>
+                    <span id="splitValuel">1 person</span>
+                </div>
+                <input type="range" min="1" max="10" value="1" id="splitInput" />
+            </div>
+            <div>
+                <span>Bill each</span>
+                <span id="billEach"></span>
+            </div>
+            <div>
+                <span>Tip each</span>
+                <span id="tipEach"></span>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
