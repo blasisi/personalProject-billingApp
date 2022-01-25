@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+html {
+    height: 100%;
+    font-size: 10px;
+    color: black;
+    background-color: maroon;
+}
+
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+body {
+    background-color: whitesmoke;
+}
+
+main {
+    max-width: 40rem;
+    margin: 2rem auto;
+    background: linear-gradient(30deg, rgb(240, 17, 54));
+    padding: 3rem 1.6rem 6rem 1.6rem;
+    border-radius: 4rem;
+    box-shadow: 0 2px 2px lightgrey;
+}
+
+main .title {
+    text-align: center;
+    font-size: 6rem;
+    margin: 0;
+    padding-bottom: 3rem;
+    color: rgb(75, 71, 71);
+}
+
+section {
+    background-color: rgb(252, 225, 229);
+    font-size: 1.8rem;
+    margin-bottom: 1.6rem;
+    border-radius: 1rem;
+    box-shadow: inset 0 2px 2px lightslategray;
+}
+
+section>div {
+    padding: 1.6rem 0;
+}
+
+.bills {
+    display: flex;
+}
+
+.bills label {
+    flex: 1;
+    align-self: center;
+}
+
+.bill input {
+    flex: 3;
+}
+
+input[type="number"] {
+    background-color: #f4f4f5;
+    font-size: 1.6rem;
+    border: 1px solid lightseagreen;
+    padding: 0.8rem 0 0.8rem 0.8rem;
+    box-shadow: inset 0 2px 2px lightslategray;
+}
